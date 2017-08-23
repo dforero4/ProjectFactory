@@ -1,0 +1,117 @@
+﻿/* Reset */
+html, body{
+		width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	height: auto;
+	background-color: lightblue;
+	font-size: 10px;
+}
+
+div, span, article, aside, footer, header, hgroup, nav, section,
+h1, h2, h3, h4, h5, h6, p, blockquote, a, ol, ul, li
+/*,table, tr, th, td, tbody, tfoot, thead */
+{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 1px;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+/* Global */
+body{
+	background-color: #FFFFFF;
+	-webkit-box-shadow: 0px 0px 60px;
+	box-shadow: 0px 0px 60px;
+}
+/* Containers */
+
+#top {
+	background-color: #990000;
+	width: 98%;
+	padding-top: 9px;
+	padding-left: 9px;
+	overflow: hidden;
+	padding-right: 9px;
+	padding-bottom: 9px;
+	font-size:18px;
+}
+
+#logo { margin: 0 0 0 10px; float: left; }
+
+#topnav { background-color: #333333; clear: both; font-size: 15px; }
+#topnav ul { background-color: #333333; width: 100%; float: left; margin: 0; border-bottom: 3px #CCCCCC solid; }
+#topnav ul li { display:inline; position:relative; }
+#topnav ul li a { float: left; margin: 0px 4.5%; padding: 10px 20px; }
+#topnav a:link { color: #FFFFFF; text-decoration: none; }
+#topnav a:visited { color: #FFFFFF; }
+#topnav a:active { color: #FFFFFF; }
+#topnav a:hover { background-color: #770000; color: #FFFFFF; }
+#topnav a:focus { color: #FFFFFF; }
+
+#banner img { margin: auto; }
+
+#subbanner { width: 100%; background-color: #555555; padding: 15px 0px; overflow: hidden; }
+#subbanner h3 { color: #FFFFFF; font-size: 16px; font-weight: bold; text-align: center; 
+				line-height: 180%; }
+				
+#content { float: left; width: 650px; padding: 20px; }
+#content h1 { margin: 0 0 20px 0; font-size: 32px; border-bottom: 1px #777777 solid; padding: 20px 0px; }
+#content p { margin: 16px 0; line-height: 160%; font-size: 16px; }
+#content h2 { margin: 20px 0 0 0; font-size: 24px; }
+#content img { padding: 6px; border: 1px #888888 solid; margin: 6px; }
+#content ul li { font-size: 16px; margin: 5px 24px; }
+#content a { display:inline; }
+#content table { width:100%; } 
+#content th { font-size: 18px; }
+#content table tr:nth-child(even) { background-color: #dddddd; }
+
+#rightside { padding: 20px; margin-left: 675px; }
+#rightside h2 { margin: 20px 0 10px 0; font-size: 20px; border-bottom: 1px #777777 solid; }
+#rightside p { margin: 6px 0; line-height: 160%; font-size: 12px; }
+
+#footer { clear: both; background-color: #000000; padding: 10px 0; bottom: 0px;  }
+#footer p { color: #FFFFFF; text-align: center; }
+
+/*LOGIN PAGE*/
+#login_page { background-color:#990000; height: auto; }
+#login_title { font-family:"Courier New"; font-size: 75px; text-align: center; display: none; padding: 50px 10px; }
+
+#login_form { display: none; }
+#login_form form { background-color: #CC3300; color: #FFFFFF; clear:both; display: block; margin: auto; 
+					padding: 10px 10px; font-size: 24px; text-align: center; }
+#login_form form label { margin: 10px 10px;  }
+#login_form form input { margin: 10px 10px; }
+#login_form form p { font-size: 12px; }
+
+/*MAIN/HOME PAGE*/
+#login_status p { position:absolute; top:0; right:0; float: right; text-align: right; padding: 0px 10px; font-size: 14px;  }
+
+/* Forms 
+form { text-align: left; margin: 10px; }
+
+label, submit, input, textarea {
+	border: 0; padding: 0; margin: 0; background: none;
+}
+
+label {
+	color: #FFFFFF; font-size: 12px; float: right; width: 50px; text-align: right; display: block; margin-top: 5px; 
+}
+
+input {
+	background-color: #FFFFFF; border: 1px #333 solid; padding: 5px; width: 100px; margin-bottom: 12px; float: right; 
+}
+
+.submit {
+	width: 90px; height: 25px; margin-left: 60px; font-size: 12px; float: right;
+}
+
+#contact-form ol {
+	list-style-type: none;
+}
+
+*/
